@@ -20,4 +20,11 @@ print "ok 1\n";
 
 $words = Lingua::RU::Number::rur_in_words(30989.56);
 print "30989.56 is $words\n";
+$words = Lingua::RU::Number::rur_in_words(10.57);
+print "10.57 is $words\n";
+$words = Lingua::RU::Number::rur_in_words(10.29);
+print "10.29 is $words\n";
+$words = Lingua::RU::Number::rur_in_words(10.58);
+print "10.58 is $words\n";
+
 print "ok 2\n";

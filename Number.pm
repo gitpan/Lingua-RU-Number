@@ -12,7 +12,7 @@ require Exporter;
 @EXPORT = qw();
 @EXPORT_OK = qw(rur_in_words);
 
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 # Preloaded methods go here.
 use vars qw(%diw %nom);
@@ -121,7 +121,7 @@ sub get_string
         } else {
             my $s1 = sprintf("%0.0f",$sx/10);
             $s1-- if (($s1 - $sx/10) > 0);
-            my $s0 = int($sum - $s2*100 - $s1*10);
+            my $s0 = int($sum - $s2*100 - $s1*10 + 0.5);
             if ($s1 > 0) {
                 $retval .= " ".$diw{1}{$s1}{0};
                 $nom = $diw{1}{$s1}{1};
