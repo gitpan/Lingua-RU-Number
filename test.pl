@@ -18,6 +18,6 @@ print "ok 1\n";
 # (correspondingly "not ok 13") depending on the success of chunk 13
 # of the test code):
 
-$words = Lingua::RU::Number::rur_in_words(2.20);
-# print "2.20 is $words\n";
+$words = Lingua::RU::Number::rur_in_words(30989.56);
+print "30989.56 is $words\n";
 print "ok 2\n";

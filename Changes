@@ -1,5 +1,7 @@
 Revision history for Perl extension Lingua::RU::Number.
 
+0.02  Mon Oct  28 10:27:00 2002
+	- '56 cents(kopeek)' bug fixed. (sums like *.56 was not parsed correctly)
 0.01  Thu Jun  6 15:41:10 2002
 	- original version; created by h2xs 1.1.1.1
 
