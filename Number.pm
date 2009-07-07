@@ -4,6 +4,7 @@ use strict;
 use vars qw($VERSION @ISA @EXPORT @EXPORT_OK);
 
 require Exporter;
+require AutoLoader;
 
 @ISA = qw(Exporter AutoLoader);
 # Items to export into callers namespace by default. Note: do not export
@@ -12,7 +13,7 @@ require Exporter;
 @EXPORT = qw();
 @EXPORT_OK = qw(rur_in_words);
 
-$VERSION = '0.03';
+$VERSION = '0.04';
 
 # Preloaded methods go here.
 use vars qw(%diw %nom);
@@ -30,7 +31,7 @@ use vars qw(%diw %nom);
         8  => { 0 => "восемь",       1 => 1},
         9  => { 0 => "девять",       1 => 1},
         10 => { 0 => "десять",       1 => 1},
-        11 => { 0 => "одинадцать",   1 => 1},
+        11 => { 0 => "одиннадцать",   1 => 1},
         12 => { 0 => "двенадцать",   1 => 1},
         13 => { 0 => "тринадцать",   1 => 1},
         14 => { 0 => "четырнадцать", 1 => 1},

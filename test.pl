@@ -26,5 +26,7 @@ $words = Lingua::RU::Number::rur_in_words(10.29);
 print "10.29 is $words\n";
 $words = Lingua::RU::Number::rur_in_words(10.58);
 print "10.58 is $words\n";
+$words = Lingua::RU::Number::rur_in_words(11.11);
+print "11.11 is $words\n";
 
 print "ok 2\n";
