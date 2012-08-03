@@ -1,5 +1,8 @@
 Revision history for Perl extension Lingua::RU::Number.
 
+0.05  Tue Jul 31 23:05:12 MSK 2012
+    - added required license notices
+
 0.04  Tue, 07 Jul 2009 14:22:56 +0400
     - typo fixed
     - added 'require Autoloader;'

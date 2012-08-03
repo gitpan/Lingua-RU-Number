@@ -4,4 +4,5 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'	=> 'Lingua::RU::Number',
     'VERSION_FROM' => 'Number.pm', # finds $VERSION
+    ($ExtUtils::MakeMaker::VERSION >= 6.3002 ? ('LICENSE' => 'perl', ) : ()),
 );

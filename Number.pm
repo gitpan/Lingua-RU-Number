@@ -13,7 +13,7 @@ require AutoLoader;
 @EXPORT = qw();
 @EXPORT_OK = qw(rur_in_words);
 
-$VERSION = '0.04';
+$VERSION = '0.05';
 
 # Preloaded methods go here.
 use vars qw(%diw %nom);
@@ -168,10 +168,22 @@ The target cyrillic charset is B<windows-1251>.
 
 =head1 BUGS
 
-seems have no bugs..
+..
 
 =head1 AUTHOR
 
-Vladislav A. Safronov, E<lt>F<vlads@yandex-team.ru>E<gt>, E<lt>F<vlad@yandex.ru>E<gt>
+Vladislav Safronov, E<lt>F<vlad at yandex.ru>E<gt>
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright (C) 2002 by Vladislav Safronov.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.10.1 or,
+at your option, any later version of Perl 5 you may have available.
+
+This program is distributed in the hope that it will be
+useful, but without any warranty; without even the implied
+warranty of merchantability or fitness for a particular purpose.
 
 =cut
